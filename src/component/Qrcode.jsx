@@ -17,11 +17,11 @@ const Qrcode = () => {
                     type="text" 
                     name="input" 
                     id="input" 
-                    className='h-10 border-black border-2 w-full rounded-xl' 
+                    className='h-10 border-black border-2 w-full rounded-xl pl-2' 
                     ref={inputref} // set the ref to this input
                 />
                 <button 
-                    className='bg-blue-600 py-2 px-4 text-md rounded-md' 
+                    className='bg-blue-600 py-2 px-4 text-xl rounded-md text-white' 
                     onClick={genrateQr} // Call function on click
                 >
                     Submit
